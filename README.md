@@ -38,7 +38,6 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Performance.png" width="800"><br>
-  <em>Figure 1. Overall architecture of the proposed TP-Seg framework for unified medical lesion segmentation. Each input image, together with its task embedding, is processed by the task-conditioned routing block (TCRB) for feature extraction, followed by the prototype-guided task decoder (PGTD) for task-aware decoding and final lesion prediction.</em>
 </p>
 
 ---
