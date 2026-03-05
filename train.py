@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, WeightedRandomSampler
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from dataset import FullDataset
-from SAM2UNet import Net
+from TPSeg import Net
 from tqdm import tqdm
 from utils.AvgMeter import AvgMeter
 import shutil
@@ -88,7 +88,6 @@ class cal_miou(object):
         return (intersection + smooth) / (union + smooth)
 
     def show(self):
-        # 将 Tensor 移动到 CPU 并转换为 NumPy 数组，然后计算均值
         return np.mean(torch.stack(self.prediction).cpu().numpy())  # 修改此行
 
 def structure_loss(pred, mask, alpha=0.5, boundary_weight=2.0):
