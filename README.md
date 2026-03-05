@@ -17,7 +17,7 @@ Building a unified model with a single set of parameters to efficiently handle d
 ## Framework
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Framework.png" width="800"><br>
+  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/image/Framework.png" width="800"><br>
   <em>Figure 1. Overall architecture of the proposed TP-Seg framework for unified medical lesion segmentation. Each input image, together with its task embedding, is processed by the task-conditioned routing block (TCRB) for feature extraction, followed by the prototype-guided task decoder (PGTD) for task-aware decoding and final lesion prediction.</em>
 </p>
 
@@ -26,7 +26,7 @@ Building a unified model with a single set of parameters to efficiently handle d
 ## Visual Comparison
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Quantitative.png" width="800"><br>
+  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/image/Quantitative.png" width="800"><br>
   <em>Figure 2. Visual comparison of TP-Seg with other unified models, <div align="center">
 including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</a>, SAM2-UNet, SegGPT and <a href="https://github.com/DUT-CSJ/SR-ICL">SR-ICL</a>, across the 8 medical lesion segmentation tasks.
 </div></em>
@@ -37,7 +37,7 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 ## Performance
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Performance.png" width="800"><br>
+  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/image/Performance.png" width="800"><br>
 </p>
 
 ---
