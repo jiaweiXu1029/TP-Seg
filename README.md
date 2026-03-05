@@ -23,7 +23,7 @@ Building a unified model with a single set of parameters to efficiently handle d
 
 ---
 
-## Quantitative Results
+## Visual Comparison
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Quantitative.png" width="800"><br>
