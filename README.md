@@ -4,7 +4,7 @@
 
 CVPR 2026  
 
-**Authors:**<br>
+<br>
 Jiawei Xu, Qiangqiang Zhou, Dandan Zhu, Yong Chen, Yugen Yi, [Xiaoqi Zhao](https://github.com/Xiaoqi-Zhao-DLUT)
 
 </div>
