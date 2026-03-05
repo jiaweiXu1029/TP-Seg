@@ -27,7 +27,9 @@ Building a unified model with a single set of parameters to efficiently handle d
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Quantitative.png" width="800"><br>
-  <em>Figure 2. Visual comparison of TP-Seg with other unified models, including [Spider](https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg), SAM2-UNet ,SegGPT and [SR-ICL](https://github.com/DUT-CSJ/SR-ICL), across the 8 medical lesion segmentation tasks.</em>
+  <em>Figure 2. Visual comparison of TP-Seg with other unified models, <div align="center">
+including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</a>, SAM2-UNet, SegGPT and <a href="https://github.com/DUT-CSJ/SR-ICL">SR-ICL</a>, across the 8 medical lesion segmentation tasks.
+</div></em>
 </p>
 
 ---
