@@ -14,10 +14,20 @@ Jiawei Xu, Qiangqiang Zhou, Dandan Zhu, Yong Chen, Yugen Yi, [Xiaoqi Zhao](https
 ## Overview
 Building a unified model with a single set of parameters to efficiently handle diverse types of medical lesion segmentation has become a crucial objective for AI-assisted diagnosis. Existing unified segmentation approaches typically rely on shared encoders across heterogeneous tasks and modalities, which often leads to feature entanglement, gradient interference, and suboptimal lesion discrimination. In this work, we propose TP-Seg, a task-prototype framework for unified medical lesion segmentation. On one hand, the task-conditioned adapter effectively balances shared and task-specific representations through a dual-path expert structure, enabling adaptive feature extraction across diverse medical imaging modalities and lesion types. On the other hand, the prototype-guided task decoder introduces learnable task prototypes as semantic anchors and employs a cross-attention mechanism to achieve fine-grained modeling of task-specific foreground and background semantics. Without bells and whistles, TP-Seg consistently outperforms specialized, general and unified segmentation methods across 8 different medical lesion segmentation tasks covering multiple imaging modalities, demonstrating strong generalization, scalability and clinical applicability.
 
-<p align="center">
-  <img src="https://github.com/jiaweiXu1029/TP-Seg/blob/main/Framework.png" width="600">
-</p>
+## Framework
 
 <p align="center">
-  <img src="https://github.com/jiaweiXu1029/TP-Seg/blob/main/Quantitative.png" width="600">
+  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Framework.png" width="800"><br>
+  <em>Figure 1. Overall architecture of the proposed TP-Seg framework for unified medical lesion segmentation. Each input image, together with its task embedding, is processed by the task-conditioned routing block (TCRB) for feature extraction, followed by the prototype-guided task decoder (PGTD) for task-aware decoding and final lesion prediction.</em>
 </p>
+
+---
+
+## Quantitative Results
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/Quantitative.png" width="800"><br>
+  <em>Figure 2. Visual comparison of TP-Seg with other unified models, including [Spider]([https://github.com/Xiaoqi-Zhao-DLUT](https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg)), SAM2-UNet ,SegGPT and [SR-ICL](https://github.com/DUT-CSJ/SR-ICL), across the 8 medical lesion segmentation tasks.</em>
+</p>
+
+---
