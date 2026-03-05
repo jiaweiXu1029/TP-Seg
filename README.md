@@ -19,5 +19,5 @@ Building a unified model with a single set of parameters to efficiently handle d
 </p>
 
 <p align="center">
-  <img src="https://github.com/jiaweiXu1029/TP-Seg/blob/main/Quantitative .png" width="600">
+  <img src="https://github.com/jiaweiXu1029/TP-Seg/blob/main/Quantitative.png" width="600">
 </p>
