@@ -40,3 +40,9 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 ---
 
 ## Datasets
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jiaweiXu1029/TP-Seg/main/image/datasets.png" width="800"><br>
+</p>
+
+---
+
