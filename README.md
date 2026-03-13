@@ -50,7 +50,7 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 
 ---
 ## Usage
-1.First, download the corresponding dataset and the [pretrained weights](https://github.com/facebookresearch/sam2).
+1.First, download the corresponding [datasets](https://github.com/DUT-CSJ/SR-ICL). and the [pretrained weights](https://github.com/facebookresearch/sam2).
 
 2.Then run train.py to train the model and obtain the trained weights.
 
