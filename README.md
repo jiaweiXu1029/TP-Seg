@@ -50,7 +50,8 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 
 ---
 ## Usage
-1.First, download the corresponding [datasets](https://github.com/DUT-CSJ/SR-ICL)（  **⚠️ Note**
+1.First, download the corresponding [datasets](https://github.com/DUT-CSJ/SR-ICL)（  
+**⚠️ Note**
 > In practice, we obtained the permissions and download rights for each dataset individually.  
 > The link provided here is only for reference.）.
 > and the [pretrained weights](https://github.com/facebookresearch/sam2).
