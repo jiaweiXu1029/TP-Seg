@@ -46,11 +46,13 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 
 ---
 ## Prediction Maps
-link:[httppr](https://drive.google.com/file/d/1F6sVp6_Vf3J8a93sWq1eEoAWFZoRi_-c/view?usp=drive_link)
+[link](https://drive.google.com/file/d/1F6sVp6_Vf3J8a93sWq1eEoAWFZoRi_-c/view?usp=drive_link).
 
 ---
 ## Usage
 1.First, download the corresponding dataset and the [pretrained weights](https://github.com/facebookresearch/sam2).
+
 2.Then run train.py to train the model and obtain the trained weights.
+
 3.Finally, run test.py to perform testing using the trained weights.
 
