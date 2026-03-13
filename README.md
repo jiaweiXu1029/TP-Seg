@@ -50,11 +50,23 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 
 ---
 ## Usage
-1.First, download the corresponding [datasets](https://github.com/DUT-CSJ/SR-ICL)（ > **⚠️ Note**
+1.First, download the corresponding [datasets](https://github.com/DUT-CSJ/SR-ICL)（  **⚠️ Note**
 > In practice, we obtained the permissions and download rights for each dataset individually.  
-> The link provided here is only for reference.）. and the [pretrained weights](https://github.com/facebookresearch/sam2).
+> The link provided here is only for reference.）.
+> and the [pretrained weights](https://github.com/facebookresearch/sam2).
 
 2.Then run train.py to train the model and obtain the trained weights.
 
 3.Finally, run test.py to perform testing using the trained weights.
 
+## Citing TP-Seg
+
+If you find **TP-Seg** useful in your research or work, please consider citing our paper:
+
+```bibtex
+@article{tpseg202X,
+  title={TP-Seg: Title of Your Paper},
+  author={Author1, Author2, Author3, ...},
+  journal={Journal or Conference Name},
+  year={202X}
+}
