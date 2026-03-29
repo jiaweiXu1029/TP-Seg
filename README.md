@@ -57,6 +57,16 @@ including <a href="https://github.com/Xiaoqi-Zhao-DLUT/Spider-UniCDSeg">Spider</
 > and the [pretrained weights](https://github.com/facebookresearch/sam2).
 
 2.Then run train.py to train the model and obtain the trained weights.
+python train.py \
+  --hiera_path path/sam2_hiera_large.pt \
+  --train_image_path ～/train/image \
+  --train_mask_path ～/train/mask \
+  --val_datasets_dir ～ \
+  --save_path ～ \
+  --num_tasks 8 \
+  --epoch 30 \
+  --batch_size 8 \
+  --lr 0.0005 \
 
 3.Finally, run test.py to perform testing using the trained weights.
 
