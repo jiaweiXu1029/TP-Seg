@@ -75,9 +75,9 @@ python train.py \
 If you find **TP-Seg** useful in your research or work, please consider citing our paper:
 
 ```bibtex
-@article{tpseg202X,
-  title={TP-Seg: Title of Your Paper},
-  author={Author1, Author2, Author3, ...},
-  journal={Journal or Conference Name},
-  year={202X}
+@article{xu2026tp,
+  title={TP-Seg: Task-Prototype Framework for Unified Medical Lesion Segmentation},
+  author={Xu, Jiawei and Zhou, Qiangqiang and Zhu, Dandan and Chen, Yong and Yi, Yugen and Zhao, Xiaoqi},
+  journal={arXiv preprint arXiv:2604.00684},
+  year={2026}
 }
