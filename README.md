@@ -3,7 +3,7 @@
 <h1>TP-Seg: Task-Prototype Framework for Unified Medical Lesion Segmentation</h1>
   
 
-**CVPR,2026**<br>
+**CVPR,2026 Findings**<br>
 Jiawei Xu, Qiangqiang Zhou, Dandan Zhu, Yong Chen, Yugen Yi, [Xiaoqi Zhao](https://github.com/Xiaoqi-Zhao-DLUT)
 
 </div>
